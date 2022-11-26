@@ -6,20 +6,20 @@ namespace Task1Lec9
 {
     public class Task1
     {
-        static void Main()
-        {
-            List<int> number = new List<int>();                                            // new list creation
-            EnterListElement(number);                                                      // entering list items
-            int numSum = SumOfEvenNumbers(number);                                         // finding sum of even numbers of the list
+        //static void Main()
+        //{
+        //    List<int> number = new List<int>();                                            // new list creation
+        //    EnterListElement(number);                                                      // entering list items
+        //    int numSum = SumOfEvenNumbers(number);                                         // finding sum of even numbers of the list
 
-            Console.WriteLine("\nSumma chetnyh chisel ravna: " + numSum + "\n");           // output of sum of even numbers
+        //    Console.WriteLine("\nSumma chetnyh chisel ravna: " + numSum + "\n");           // output of sum of even numbers
 
-            Console.WriteLine($"Vvedennyje chisla: {OutputOfListElements(number)}\n");                        // output of list elements
+        //    Console.WriteLine($"Vvedennyje chisla: {OutputOfListElements(number)}\n");                        // output of list elements
       
-            List<string> people = new List<string>() { "Tom", "Bob", "Sam", "David", "James", "John", "Bill", "Kevin", "Walt" };  // new string list creation
-            Console.WriteLine("\n\nWords containing five symbols: " + FiveLettersWordOutput(people));  // output of words from from the list containing 5 symbols
-            FindWordsOfACertainLength(people);                                                         // output of words from the list containing the entered number of symbols
-        }
+        //    List<string> people = new List<string>() { "Tom", "Bob", "Sam", "David", "James", "John", "Bill", "Kevin", "Walt" };  // new string list creation
+        //    Console.WriteLine("\n\nWords containing five symbols: " + FiveLettersWordOutput(people));  // output of words from from the list containing 5 symbols
+        //    FindWordsOfACertainLength(people);                                                         // output of words from the list containing the entered number of symbols
+        //}
 
         public static int SumOfEvenNumbers(List<int> numbers)       // method calculates the sum of list even numbers
         {
