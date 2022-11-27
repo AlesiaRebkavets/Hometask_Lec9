@@ -9,21 +9,21 @@ namespace Task3Lec9
 {
     public class Task3
     {
-        static void Main()
-        {
-            // task 1
-            Queue<int> numbers = new Queue<int>();              // initialization of queue
-            AddElementsToQueue(numbers);                        // adding elements to queue
-            Console.WriteLine("Maksimalnoye chislo ocheredi: " + GetMaxValue(numbers));  // getting maximum number in queue
-            numbers.Dequeue();      // deleting the first element in queue
-            numbers.Dequeue();      // deleting the second (first after the previous deletion) element in queue
-            Console.WriteLine("Maksimalnoye chislo ocheredi posle udaleniya: " + GetMaxValue(numbers));  // getting maximum number in queue
-            // task 2
-            Console.WriteLine("\n***** task 2 *****\n");        // output of delimiter to make the result in console more readable
-            Stack<char> letters = new Stack<char>();            // initialization of stack
-            AddElementsToStac(letters);                         // adding elements to stack
-            Console.WriteLine("Stack v obratnom poryadke: " + OutputInReverseOrder(letters));  // output of stack on reverse order
-        }
+        //static void Main()
+        //{
+        //    // task 1
+        //    Queue<int> numbers = new Queue<int>();              // initialization of queue
+        //    AddElementsToQueue(numbers);                        // adding elements to queue
+        //    Console.WriteLine("Maksimalnoye chislo ocheredi: " + GetMaxValue(numbers));  // getting maximum number in queue
+        //    numbers.Dequeue();      // deleting the first element in queue
+        //    numbers.Dequeue();      // deleting the second (first after the previous deletion) element in queue
+        //    Console.WriteLine("Maksimalnoye chislo ocheredi posle udaleniya: " + GetMaxValue(numbers));  // getting maximum number in queue
+        //    // task 2
+        //    Console.WriteLine("\n***** task 2 *****\n");        // output of delimiter to make the result in console more readable
+        //    Stack<char> letters = new Stack<char>();            // initialization of stack
+        //    AddElementsToStac(letters);                         // adding elements to stack
+        //    Console.WriteLine("Stack v obratnom poryadke: " + OutputInReverseOrder(letters));  // output of stack on reverse order
+        //}
 
         private static int EnteringANumber()
         {
