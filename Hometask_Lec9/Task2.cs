@@ -10,23 +10,23 @@ namespace Task2Lec9
 {
     public class Task2
     {
-        static void Main()
-        {
-            // task 1
-            LinkedList<int> numbers = new LinkedList<int>(new[] { 2,4,3,2,8,2,5,1,2});  // initialization of LinkedList for task 1
-            int n1 = EnterElement();                    // input of the first element
-            int n2 = EnterElement();                    // input of the second element
-            AddElements(numbers, n1, n2);               // adding element two after elements equal to the element one of LinkedList 'numbers'
-            OutputOfListElements(numbers);              // output of the result
+        //static void Main()
+        //{
+        //    // task 1
+        //    LinkedList<int> numbers = new LinkedList<int>(new[] { 2,4,3,2,8,2,5,1,2});  // initialization of LinkedList for task 1
+        //    int n1 = EnterElement();                    // input of the first element
+        //    int n2 = EnterElement();                    // input of the second element
+        //    AddElements(numbers, n1, n2);               // adding element two after elements equal to the element one of LinkedList 'numbers'
+        //    OutputOfListElements(numbers);              // output of the result
 
-            // task 2
-            LinkedList<int> list1 = new LinkedList<int>(new[] { 1,3,4,7,12 });          // initialization of the first LinkedList for task 2
-            LinkedList<int> list2 = new LinkedList<int>(new[] { 1,5,7,9 });             // initialization of the second LinkedList for task 2
-            LinkedList<int> list3 = new LinkedList<int>();                              // initialization of empty LinkedList for task 2
-            UniteTwoLists(list1, list2, list3);                                // uniting of two lists
-            OutputOfListElements(list3);                                       // output of the result
+        //    // task 2
+        //    LinkedList<int> list1 = new LinkedList<int>(new[] { 1,3,4,7,12 });          // initialization of the first LinkedList for task 2
+        //    LinkedList<int> list2 = new LinkedList<int>(new[] { 1,5,7,9 });             // initialization of the second LinkedList for task 2
+        //    LinkedList<int> list3 = new LinkedList<int>();                              // initialization of empty LinkedList for task 2
+        //    UniteTwoLists(list1, list2, list3);                                // uniting of two lists
+        //    OutputOfListElements(list3);                                       // output of the result
 
-        }
+        //}
 
         public static int EnterElement()
         {
